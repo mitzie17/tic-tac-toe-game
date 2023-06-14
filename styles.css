@@ -1,0 +1,25 @@
+.main-container{
+	width: 400px;
+	margin: 50px auto 0 auto;
+}
+
+.main-container .box{
+	width: 100px;
+	height: 100px;
+	font-size: 85px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.main-container .box:hover{
+	background: rgb(174, 244, 255);
+	color: rgb(108, 108, 108);
+}
+
+#box1, #box2, #box4, #box5, #box7, #box8 {
+	border-right: 2px solid #000;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6 {
+	border-bottom: 2px solid #000;
+}
