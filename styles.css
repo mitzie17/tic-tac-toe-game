@@ -12,9 +12,20 @@
 	cursor: pointer;
 }
 
+.heading-turn {
+	font-size: 30px;
+	background-color: rgb(13, 110, 253);
+	color: black
+}
+
 .main-container .box:hover{
 	background: rgb(174, 244, 255);
 	color: white;
+}
+
+.win{
+	background: green; 
+	color: black
 }
 
 #box1, #box2, #box4, #box5, #box7, #box8 {
